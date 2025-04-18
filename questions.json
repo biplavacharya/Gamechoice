@@ -1,0 +1,322 @@
+[
+  {
+    "question": "Which one is a lion?",
+    "audio": "q1-lion.mp3",
+    "options": {
+      "left": {
+        "title": "Lion",
+        "image": "assets/images/lion.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Tiger",
+        "image": "assets/images/tiger.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which fruit is an apple?",
+    "audio": "q2-apple.mp3",
+    "options": {
+      "left": {
+        "title": "Banana",
+        "image": "assets/images/banana.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Apple",
+        "image": "assets/images/apple.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which one is Mount Everest?",
+    "audio": "q3-everest.mp3",
+    "options": {
+      "left": {
+        "title": "Mount Fuji",
+        "image": "assets/images/fuji.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Mount Everest",
+        "image": "assets/images/everest.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which is a mango?",
+    "audio": "q4-mango.mp3",
+    "options": {
+      "left": {
+        "title": "Mango",
+        "image": "assets/images/mango.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Papaya",
+        "image": "assets/images/papaya.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which one is a helicopter?",
+    "audio": "q5-helicopter.mp3",
+    "options": {
+      "left": {
+        "title": "Helicopter",
+        "image": "assets/images/helicopter.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Aeroplane",
+        "image": "assets/images/aeroplane.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a cat?",
+    "audio": "q6-cat.mp3",
+    "options": {
+      "left": {
+        "title": "Cat",
+        "image": "assets/images/cat.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Dog",
+        "image": "assets/images/dog.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is the sun?",
+    "audio": "q7-sun.mp3",
+    "options": {
+      "left": {
+        "title": "Moon",
+        "image": "assets/images/moon.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Sun",
+        "image": "assets/images/sun.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which is a bus?",
+    "audio": "q8-bus.mp3",
+    "options": {
+      "left": {
+        "title": "Bus",
+        "image": "assets/images/bus.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Train",
+        "image": "assets/images/train.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a cup?",
+    "audio": "q9-cup.mp3",
+    "options": {
+      "left": {
+        "title": "Bowl",
+        "image": "assets/images/bowl.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Cup",
+        "image": "assets/images/cup.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which is an elephant?",
+    "audio": "q10-elephant.mp3",
+    "options": {
+      "left": {
+        "title": "Elephant",
+        "image": "assets/images/elephant.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Rhino",
+        "image": "assets/images/rhino.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a football?",
+    "audio": "q11-football.mp3",
+    "options": {
+      "left": {
+        "title": "Football",
+        "image": "assets/images/football.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Cricket ball",
+        "image": "assets/images/cricket.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which one is a guitar?",
+    "audio": "q12-guitar.mp3",
+    "options": {
+      "left": {
+        "title": "Guitar",
+        "image": "assets/images/guitar.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Piano",
+        "image": "assets/images/piano.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which one is a bicycle?",
+    "audio": "q13-bicycle.mp3",
+    "options": {
+      "left": {
+        "title": "Motorcycle",
+        "image": "assets/images/motorcycle.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Bicycle",
+        "image": "assets/images/bicycle.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which is a rabbit?",
+    "audio": "q14-rabbit.mp3",
+    "options": {
+      "left": {
+        "title": "Rabbit",
+        "image": "assets/images/rabbit.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Squirrel",
+        "image": "assets/images/squirrel.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a frog?",
+    "audio": "q15-frog.mp3",
+    "options": {
+      "left": {
+        "title": "Frog",
+        "image": "assets/images/frog.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Toad",
+        "image": "assets/images/toad.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which one is a school bag?",
+    "audio": "q16-bag.mp3",
+    "options": {
+      "left": {
+        "title": "Suitcase",
+        "image": "assets/images/suitcase.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "School Bag",
+        "image": "assets/images/schoolbag.jpg",
+        "isCorrect": true
+      }
+    }
+  },
+  {
+    "question": "Which one is milk?",
+    "audio": "q17-milk.mp3",
+    "options": {
+      "left": {
+        "title": "Milk",
+        "image": "assets/images/milk.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Juice",
+        "image": "assets/images/juice.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which one is an orange?",
+    "audio": "q18-orange.mp3",
+    "options": {
+      "left": {
+        "title": "Orange",
+        "image": "assets/images/orange.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Peach",
+        "image": "assets/images/peach.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a car?",
+    "audio": "q19-car.mp3",
+    "options": {
+      "left": {
+        "title": "Car",
+        "image": "assets/images/car.jpg",
+        "isCorrect": true
+      },
+      "right": {
+        "title": "Truck",
+        "image": "assets/images/truck.jpg",
+        "isCorrect": false
+      }
+    }
+  },
+  {
+    "question": "Which is a crocodile?",
+    "audio": "q20-crocodile.mp3",
+    "options": {
+      "left": {
+        "title": "Alligator",
+        "image": "assets/images/alligator.jpg",
+        "isCorrect": false
+      },
+      "right": {
+        "title": "Crocodile",
+        "image": "assets/images/crocodile.jpg",
+        "isCorrect": true
+      }
+    }
+  }
+]

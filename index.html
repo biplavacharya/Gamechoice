@@ -2,37 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Image Choice Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Quiz Game</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="main-screen" id="main-screen">
-    <img src="background.jpg" alt="Background" class="background" />
+  <!-- Main Screen -->
+  <div id="main-screen" class="screen">
+    <h1>Welcome to the Quiz Game!</h1>
     <button id="play-button">Play</button>
-    <audio id="bg-music" src="background-music.mp3" loop autoplay></audio>
+    <img src="assets/background.jpg" alt="Background" class="background-image" />
+    <audio id="bg-music" src="assets/music.mp3" autoplay loop></audio>
   </div>
 
-  <div class="quiz-container" id="quiz-container" style="display:none">
+  <!-- Quiz Screen -->
+  <div id="quiz-container" class="screen" style="display: none;">
     <div class="question-box">
-      <h2 id="question-text"></h2>
-      <audio id="question-audio" controls></audio>
+      <h2 id="question-text">Loading question...</h2>
     </div>
     <div class="options-box">
-      <div id="left-option" class="option"></div>
-      <div id="right-option" class="option"></div>
+      <div id="left-option" class="option">
+        <h3>Option Left</h3>
+        <img src="" alt="Left Option Image" />
+      </div>
+      <div id="right-option" class="option">
+        <h3>Option Right</h3>
+        <img src="" alt="Right Option Image" />
+      </div>
     </div>
-    <div id="feedback"></div>
-    <div id="action-buttons" style="display:none">
-      <button id="try-again">Try Again</button>
-      <button id="next-question">Next</button>
+    <div id="feedback" class="feedback">Feedback</div>
+    <div class="buttons">
+      <button id="try-again-btn" style="display: none;">Try Again</button>
+      <button id="next-btn" style="display: none;">Next</button>
     </div>
-  </div>
-
-  <div class="end-screen" id="end-screen" style="display:none">
-    <h2>Congratulations! You've completed the game.</h2>
-    <audio src="congrats.mp3" autoplay></audio>
-    <button id="restart-button">Play Again</button>
   </div>
 
   <script src="script.js"></script>
